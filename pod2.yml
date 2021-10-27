@@ -4,9 +4,9 @@ metadata:
   name: pod2
 spec:
   containers:
-  - name: nginx-pargavi
-    image: nginx
+  - name: nginx-server
+    image: nginx:1.21.3
     ports:
     - containerPort: 8080
-  - name: watcher-pargavi
+  - name: watcher
     image: afakharany/watcher
